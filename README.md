@@ -1,48 +1,16 @@
-# JustDeleteMe
+# JustDeleteMeTW
 
-A directory of direct links to delete your account from web services.
+一個網路服務帳號刪除連結的目錄，額外收錄及整理台灣常見網路服務。
 
-![Build Status](https://github.com/jdm-contrib/jdm/actions/workflows/workflow.yml/badge.svg)
+JustDeleteMeTW 是 [jdm-contrib/jdm](https://github.com/jdm-contrib/jdm) 的分支，目的是為了新增台灣常見網路服務，但不因地域性干擾原始專案。
 
-## Building Locally
+![Build Status](https://github.com/jdmtw/jdmtw.github.io/actions/workflows/workflow.yml/badge.svg)
 
-JustDeleteMe is built using [Jekyll](https://jekyllrb.com/) and is linted and
-validated using a mixture of Ruby and Node.js packages and scripts.
+## 開發與貢獻
 
-### Dependencies
+開發說明請見 [上游](https://github.com/jdm-contrib/jdm/blob/master/README.md#building-locally)。
 
-- [Ruby](https://www.ruby-lang.org) (>=2.7.2)
-- [Node.js](https://nodejs.org)
-
-### Installation
-
-- Clone the repository
-
-  ```sh
-  git clone https://github.com/jdm-contrib/jdm.git
-  ```
-
-- Install dependencies
-
-  ```sh
-  cd jdm
-  gem install bundler
-  bundle install
-  ```
-
-### Building the site
-
-Just run `jekyll serve`
-
-### Testing
-
-Tests are run via the "cibuild" script, and can be run via `./script/cibuild`
-
-## Contributing
-
-If you want to help, do read our [contributing](CONTRIBUTING.md) guidelines.
-To help with translating, also see our [translation](TRANSLATION_REFERENCE.md)
-guidelines.
+貢獻方式依 [上游](https://github.com/jdm-contrib/jdm/blob/master/CONTRIBUTING.md) 為主，差別在不用翻譯。
 
 ## License
 
