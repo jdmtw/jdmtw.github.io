@@ -7,15 +7,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <meta name="title" content="JustDeleteMe">
+    <meta name="title" content="JustDeleteMeTW">
     <meta name="description" content="{{ site.data.trans.[page.lang].tagline }}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://justdeleteme.xyz/">
-    <meta property="og:title" content="JustDeleteMe">
+    <meta property="og:url" content="https://jdmtw.github.io/">
+    <meta property="og:title" content="JustDeleteMeTW">
     <meta property="og:description" content="{{ site.data.trans.[page.lang].tagline }}">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://justdeleteme.xyz/">
-    <meta property="twitter:title" content="JustDeleteMe">
+    <meta property="twitter:url" content="https://jdmtw.github.io/">
+    <meta property="twitter:title" content="JustDeleteMeTW">
     <meta property="twitter:description" content="{{ site.data.trans.[page.lang].tagline }}">
 
     <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/icons/apple-touch-icon-precomposed.png">
@@ -31,6 +31,13 @@
     <script src="{{ site.baseurl }}/assets/js/libs/jquery.js"></script>
     <script src="{{ site.baseurl }}/assets/js/libs/jquery.dropdown.js"></script>
     <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- End Google Font -->
+
 </head>
 {% if page.lang == 'ar' or page.lang == 'fa' %}
     {% assign rtl = true %}
@@ -40,23 +47,12 @@
 <body lang="{{ page.lang }}"{% if rtl %} dir="rtl"{% endif %}>
 
 <nav>
-    <a class="language-switch" href="#" data-dropdown="#language-dropdown">
-        <img class="icon" src="{{ site.baseurl }}/assets/icons/language.svg" alt="A|文"/>
-    </a>
-    <a href="#about" class="info">{{ site.data.trans.[page.lang].about }}</a>
+    <a href="https://justdeleteme.xyz">上游網站</a>
+    <a href="https://github.com/jdmtw/jdmtw.github.io">原始碼</a>
+    <a href="#about" class="info">關於</a>
 </nav>
 
 <header>
-    <h1>Just<span>Delete</span>Me</h1>
+    <h1>Just<span>Delete</span>Me<span>TW</span></h1>
     <p class="tagline">{{ site.data.trans.[page.lang].tagline }}</p>
-
-    <p>
-        <a href="#extension_browser" class="button banner">{{ site.data.trans[page.lang].extension_browser }}</a>
-
-        <a class="button" href="https://github.com/jdm-contrib/jdm">{{ site.data.trans[page.lang].contribute }}</a>
-
-        <a class="button" href="https://twitter.com/intent/tweet?text={{ site.data.trans[page.lang].title | replace: ' ', '+' | replace: '|', '-'}}+https%3A%2F%2Fjustdeleteme.xyz">{{ site.data.trans.[page.lang].twitter }}</a>
-
-        <a class="button jgmd" href="https://justgetmydata.com{%if page.lang != 'en'%}/{{page.lang}}{% endif %} "> {{site.data.trans[page.lang].jgmd }}</a>
-    </p>
 </header>

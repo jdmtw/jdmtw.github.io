@@ -12,8 +12,8 @@
 }
 
 body {
-    background-color: #D4D8DC;
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: #E1E1DF;
+    font-family: "Inter", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -22,7 +22,7 @@ nav {
     align-items: stretch;
     display: flex;
     justify-content: center;
-    background-color: #D04343;
+    background-color: #674D41;
     color: black;
     direction: ltr;
     font-weight: normal;
@@ -55,24 +55,24 @@ nav {
 }
 
 nav a {
-    display: inline-flex;
-    padding: 10px;
-    color: black;
+    display: flex;
+    padding: 10px 15px;
+    color: #E8E8E8;
     font-weight: normal;
     text-decoration: none;
     border-bottom: 1px solid transparent;
+    align-items: center;
 }
 
 nav a:hover, .language-switch:hover, .current {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #231709;
 }
 
 header {
-    background-color: #293840;
-    border-bottom: 5px solid #D04343;
+    background-color: #231709;
+    border-bottom: 5px solid #674D41;
     color: #E8E8E8;
-    margin-top: 47px;
-    padding: 40px 0;
+    padding: 100px 0 40px 0;
     position: relative;
     text-align: center;
 }
@@ -83,23 +83,22 @@ header {
 
 header h1 {
     font-size: 300%;
-    font-weight: lighter;
     margin: 0;
     padding-bottom: 10px;
 }
 
 header h1 span {
-    color: #D04343;
+    color: #674D41;
 }
 
 .tagline {
-    color: #9FB3BE;
+    color: #CCC5BC;
     font-size: 16px;
     margin: 0;
 }
 
 .button {
-    background: #D04343;
+    background: #674D41;
     border-radius: 5px;
     color: white;
     display: inline-block;
@@ -120,7 +119,7 @@ header h1 span {
 }
 
 .search {
-    background-color: #D04343;
+    background-color: #674D41;
     display: none;
     padding: 10px 0;
 }
@@ -149,6 +148,10 @@ header h1 span {
 
 .search .search-container input:focus {
     outline: none;
+}
+
+.search .search-container input::placeholder {
+    color: #CCC5BC;
 }
 
 #search{
@@ -191,15 +194,15 @@ button {
 }
 
 button:hover {
-    background-color: #FFECEC;
+    background-color: #EFDECD;
 }
 
 .reset {
-    color: #D04343;
+    color: #674D41;
 }
 
 main {
-    border-bottom: 4px solid #D04343;
+    border-bottom: 4px solid #674D41;
 }
 
 .sites {
@@ -269,32 +272,32 @@ main {
 }
 
 .site-block.hard .site-header {
-    background-color: #D04343;
+    background-color: #CC5F5A;
     border: 1px solid #AC4949;
 }
 .site-block.hard .site-header:hover {
     background-color: #AC4949;
 }
 .site-block.limited .site-header {
-    background-color: #B521CC;
+    background-color: #BF40BF;
     border: 1px solid #9923AC;
 }
 .site-block.limited .site-header:hover {
     background-color: #9923AC;
 }
 .site-block.impossible .site-header {
-    background-color: #2B2B2B;
-    border: 1px solid black;
+    background-color: #4F4F4F;
+    border: 1px solid #444444;
 }
 .site-block.impossible .site-header:hover {
-    background-color: black;
+    background-color: #303030;
 }
 
 .site-block .site-difficulty {
     background-color: #EAEBED;
     border: 1px solid #BFC6CC;
     border-top: 0;
-    color: #293840;
+    color: #231709;
     font-size: 12px;
     font-weight: bold;
     line-height: 0;
@@ -307,7 +310,7 @@ main {
     background-color: #EAEBED;
     border: 1px solid #BFC6CC;
     border-top: 0;
-    color: #293840;
+    color: #231709;
     display: none;
     font-size: 12px;
     line-height: 1.5;
@@ -330,14 +333,14 @@ main {
 }
 
 .site-block .tooltip-toggle.contains-info {
-    color: #293840;
+    color: #231709;
 }
 
 .site-block.easy .tooltip-toggle.contains-info:hover          { color: #7BAC7B; }
 .site-block.medium .tooltip-toggle.contains-info:hover        { color: #E8C674; }
-.site-block.hard .tooltip-toggle.contains-info:hover          { color: #D04343; }
-.site-block.limited .tooltip-toggle.contains-info:hover       { color: #B521CC; }
-.site-block.impossible .tooltip-toggle.contains-info:hover    { color: #2B2B2B; }
+.site-block.hard .tooltip-toggle.contains-info:hover          { color: #CC5F5A; }
+.site-block.limited .tooltip-toggle.contains-info:hover       { color: #BF40BF; }
+.site-block.impossible .tooltip-toggle.contains-info:hover    { color: #4F4F4F; }
 
 .hide-info {
     display: none;
@@ -372,8 +375,8 @@ main {
 }
 
 .info-block {
-    background-color: #293840;
-    color: #9FB3BE;
+    background-color: #674D41;
+    color: #CCC5BC;
 }
 
 .info-container a {
@@ -382,7 +385,8 @@ main {
 }
 
 .info-container a:hover {
-    color: #D04343;
+    /* color: #231709; */
+    text-decoration: underline;
 }
 
 .info-container h2 {
@@ -424,16 +428,16 @@ main {
     border: 1px solid #C5A65C;
 }
 .info-container .hard .difficulty {
-    background-color: #D04343;
+    background-color: #CC5F5A;
     border: 1px solid #AC4949;
 }
 .info-container .limited .difficulty {
-    background-color: #B521CC;
+    background-color: #BF40BF;
     border: 1px solid #9923AC;
 }
 .info-container .impossible .difficulty {
-    background-color: #2B2B2B;
-    border: 1px solid black;
+    background-color: #4F4F4F;
+    border: 1px solid #444444;
 }
 
 .banner-block {
@@ -453,13 +457,13 @@ main {
 }
 
 .banner-block a {
-    color: #2B2B2B;
+    color: #4F4F4F;
     font-weight: bold;
     text-decoration: none;
 }
 
 .banner-block a:hover {
-    color: #D04343;
+    color: #674D41;
 }
 
 .banner-block ul {
@@ -497,16 +501,16 @@ main {
     border: 1px solid #C5A65C;
 }
 .banner-block li .dot.hard {
-    background-color: #D04343;
+    background-color: #CC5F5A;
     border: 1px solid #AC4949;
 }
 .banner-block li .dot.limited {
-    background-color: #B521CC;
+    background-color: #BF40BF;
     border: 1px solid #9923AC;
 }
 .banner-block li .dot.impossible {
-    background-color: #2B2B2B;
-    border: 1px solid black;
+    background-color: #4F4F4F;
+    border: 1px solid #444444;
 }
 
 .banner-block .banner-block-extension_browser {
@@ -520,8 +524,8 @@ main {
 }
 
 footer {
-    border-top: 1px solid #9FB3BE;
-    color: #9FB3BE;
+    border-top: 1px solid #CCC5BC;
+    color: #CCC5BC;
     font-size: 12px;
     margin-top: 30px;
     padding: 10px 0 20px 0;

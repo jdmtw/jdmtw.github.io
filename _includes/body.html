@@ -7,8 +7,8 @@
 
     <div class="sort-container">
         <button class="popular">{{ site.data.trans[page.lang].popular }}</button>
-        <button data-dropdown="#alphabetical-dropdown" class="az-sort">A - Z</button>
-        <button data-dropdown="#number-dropdown" class="09-sort">0 - 9</button>
+        <button data-dropdown="#alphabetical-dropdown" class="az-sort">字母</button>
+        <button data-dropdown="#number-dropdown" class="09-sort">數字</button>
         <button data-dropdown="#difficulty-dropdown" class="diff-sort">{{ site.data.trans[page.lang].difficulty }}</button>
         <button class="reset">{{ site.data.trans[page.lang].reset }}</button>
     </div>
@@ -17,7 +17,7 @@
 <!-- Site list -->
 <main>
     <section class="sites" id="sites">
-        <p class="no-results">{{ site.data.trans[page.lang].noresults }} <a href='https://github.com/jdm-contrib/jdm'>{{ site.data.trans[page.lang].noresultshelp }}</a>.</p>
+        <p class="no-results">{{ site.data.trans[page.lang].noresults }} <a href='https://github.com/jdmtw/jdmtw.github.io'>{{ site.data.trans[page.lang].noresultshelp }}</a></p>
 
         {% for entry in site.data.sites %}
             <section class="site-block {{ entry.difficulty }}"{% if entry.meta == 'popular' %} data-popular{% endif %}>
@@ -77,7 +77,7 @@
         <div class="info-block-half">
             <h2>{{ site.data.trans[page.lang].whatisthis }}</h2>
             <p>{{ site.data.trans[page.lang].whatisthis1|safe }} <a href='https://darkpatterns.org'>{{ site.data.trans[page.lang].whatisthis2|safe }}</a> {{ site.data.trans[page.lang].whatisthis3|safe }}</p>
-            <p>{{ site.data.trans[page.lang].whatisthis4|safe }} <a href='https://github.com/jdm-contrib/jdm'>{{ site.data.trans[page.lang].pullrequest|safe }}</a>.</p>
+            <p>{{ site.data.trans[page.lang].whatisthis4|safe }} <a href='https://github.com/jdmtw/jdmtw.github.io'>{{ site.data.trans[page.lang].pullrequest|safe }}</a>.</p>
         </div>
         <div class="info-block-half">
             <h2>{{ site.data.trans[page.lang].guide }}</h2>
@@ -93,35 +93,6 @@
     </div>
 </section>
 
-<div class="banner-block">
-    <div class="banner-content">
-        <div class="banner-block-half" id="extension_browser">
-            <h2>{{ site.data.trans[page.lang].extension_browser|safe }}</h2>
-            <p>{{ site.data.trans[page.lang].extensionp1|safe }}</p>
-            <p>
-                {% assign post_extension_link_text = site.data.trans[page.lang].extensionp5 | safe %}
-                {% if post_extension_link_text == '' %}
-                    {% assign post_extension_link_text = '.' %}
-                {% endif %}
-                {{ site.data.trans[page.lang].extensionp2|safe }}
-                <a target='_blank' href='https://chrome.google.com/webstore/detail/just-delete-me/dlhckcablohllindinahbbpnfgblimoe'>{{ site.data.trans[page.lang].extensionp3|safe }}</a>
-                /
-                <a target='_blank' href='https://addons.mozilla.org/en-US/firefox/addon/justdeleteme/'>{{ site.data.trans[page.lang].extensionp4|safe }}</a>{{ post_extension_link_text }}
-            </p>
-        </div>
-        <div class="banner-block-half">
-            <h2>{{ site.data.trans[page.lang].extensionguide|safe }}</h2>
-            <ul>
-                <li><span class="dot-wrapper"><span class="dot easy"></span></span> - {{ site.data.trans[page.lang].guideeasy|safe }}</li>
-                <li><span class="dot-wrapper"><span class="dot medium"></span></span> -  {{ site.data.trans[page.lang].guidemedium|safe }}</li>
-                <li><span class="dot-wrapper"><span class="dot hard"></span></span> - {{ site.data.trans[page.lang].guidehard|safe }}</li>
-                <li><span class="dot-wrapper"><span class="dot limited"></span></span> - {{ site.data.trans[page.lang].guidelimited|safe }}</li>
-                <li><span class="dot-wrapper"><span class="dot impossible"></span></span> - {{ site.data.trans[page.lang].guideimpossible|safe }}</li>
-            </ul>
-        </div>
-    </div>
-    <div class="banner-block-extension_browser"></div>
-</div>
 
 <!-- Language dropdown -->
 <div id="language-dropdown" class="language-dropdown dropdown dropdown-tip dropdown-relative">
