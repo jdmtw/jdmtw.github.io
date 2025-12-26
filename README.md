@@ -14,9 +14,10 @@ JustDeleteMeTW 是 [jdm-contrib/jdm](https://github.com/jdm-contrib/jdm) 的分�
 
 ## License
 
-Project licensed under the [MIT License](LICENSE) (MIT). This is a detached
-fork of the [original repo](https://github.com/justdeleteme/justdelete.me)
-that intends to keep the project alive, as the original one was abandoned.
+Project licensed under the [MIT License](LICENSE) (MIT). This is a 
+fork of [jdm-contrib/jdm](https://github.com/jdm-contrib/jdm) 
+that intends to focus on popular sites in Taiwan, 
+without interfering with the upstream.
 
 Language icon from [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 released under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
