@@ -6618,6 +6618,7 @@
         "notes_pl": "Możesz usunąć swoje konto, ale zgodnie z polityką prywatności wszystkie dane razem z wiadomościami zostaną w bazie danych na zawsze.",
         "notes_cs": "Přestože je jednoduché si smazat svůj účet, nějaké data včetně zpráv tam zůstanou navždy, jak je napsáno v Zásadách ochrany osobních údajů.",
         "notes_ru": "Хотя вы можете легко удалить свой аккаунт, некоторые данные, включая сообщения, останутся навсегда, это указано в политике конфиденциальности веб-сайта.",
+        "notes_zh-TW": "雖然你可以輕鬆地刪除帳號，但網站的隱私權政策指出某些例如訊息的資料會永久保留。",
         "domains": ["facebook.com"]
     },
     {
@@ -7258,7 +7259,7 @@
     },
     {
         "name": "Foursquare",
-        "meta": "popular",
+        "_meta": "popular",
         "url": "https://foursquare.com/delete_me",
         "difficulty": "easy",
         "domains": ["foursquare.com"]
@@ -8722,7 +8723,7 @@
     },
     {
         "name": "Groupon (USA)",
-        "meta": "popular",
+        "_meta": "popular",
         "url": "https://privacy.groupon.com/",
         "difficulty": "easy",
         "notes": "Select \"Delete all my data\" and verify your identity.",
@@ -8733,7 +8734,7 @@
     },
     {
         "name": "Groupon (Worldwide)",
-        "meta": "popular",
+        "_meta": "popular",
         "url": "https://privacy.groupon.co.uk/?modal=take-control",
         "difficulty": "easy",
         "notes": "Select \"Delete all my data\" and verify your identity.",
@@ -12372,7 +12373,7 @@
     },
     {
         "name": "Match",
-        "meta": "popular",
+        "_meta": "popular",
         "url": "https://help.match.com/hc/en-us/articles/5610035266075-Delete-My-Account",
         "difficulty": "medium",
         "notes": "Only possible within the mobile app, otherwise can only be done via [contacting support](https://help.match.com/hc/en-us/requests/new).",
@@ -12838,7 +12839,7 @@
         ]
     },
     {
-        "name": "Microsoft Account",
+        "name": "Microsoft 微軟",
         "meta": "popular",
         "url": "https://account.live.com/closeaccount.aspx",
         "difficulty": "easy",
@@ -14612,7 +14613,7 @@
         "domains": ["app.oloauth.com"]
     },
     {
-        "meta": "popular",
+        "_meta": "popular",
         "name": "OLX",
         "url": "https://www.olx.com",
         "difficulty": "easy",
@@ -19837,6 +19838,7 @@
         "difficulty": "impossible",
         "notes": "You can't delete your Teams account without deleting your entire Microsoft account. This is also true if you migrated your former Skype account to a Teams account. If you want to delete your entire Microsoft account click on the provided link or follow the instructions [here](https://justdeleteme.xyz/#microsoft).",
         "notes_de": "Sie können Ihren Teams Account nicht löschen ohne Ihre gesamten Microsoft Account zu löschen. Dies gilt auch, wenn Sie Ihren alten Skype Account zu einem Teams Konto konvertiert haben.Sollten Sie Ihren Microsoft Account löschen wollen, klicken Sie auf den bereitgestellten Link, oder folgen Sie den Anweisungen [hier](https://justdeleteme.xyz/#microsoft).",
+        "notes_zh-TW": "你需要刪除整個微軟帳號才能刪除 Teams 帳號，若之前將 Skype 帳號遷移到 Teams 帳號也是。如果你想刪除整個微軟帳號請[點此](/#microsoft)。",
         "domains": ["teams.microsoft.com"]
     },
     {
@@ -22282,7 +22284,7 @@
         ]
     },
     {
-        "name": "Wikipedia",
+        "name": "Wikipedia 維基百科",
         "meta": "popular",
         "url": "https://en.wikipedia.org/wiki/Wikipedia:FAQ/Main#How_do_I_change_my_username%2Fdelete_my_account?",
         "difficulty": "impossible",
@@ -23020,7 +23022,7 @@
     },
     {
         "name": "Yelp",
-        "meta": "popular",
+        "_meta": "popular",
         "url": "https://www.yelp.com/support/contact/account_closure",
         "url_es": "https://www.yelp.es/support/contact/account_closure",
         "notes": "Closing your account does not remove all data. To delete the data associated with your account, you must email them. Additional information can be found here: [Yelp - Support Center - How do I close my account?](https://www.biz.yelp.com/support-center/article/How-do-I-close-my-account).",
