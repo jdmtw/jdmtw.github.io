@@ -7259,7 +7259,7 @@
     },
     {
         "name": "Foursquare",
-        "_meta": "popular",
+        "meta": "popular",
         "url": "https://foursquare.com/delete_me",
         "difficulty": "easy",
         "domains": ["foursquare.com"]
@@ -8723,7 +8723,7 @@
     },
     {
         "name": "Groupon (USA)",
-        "_meta": "popular",
+        "meta": "popular",
         "url": "https://privacy.groupon.com/",
         "difficulty": "easy",
         "notes": "Select \"Delete all my data\" and verify your identity.",
@@ -8734,7 +8734,7 @@
     },
     {
         "name": "Groupon (Worldwide)",
-        "_meta": "popular",
+        "meta": "popular",
         "url": "https://privacy.groupon.co.uk/?modal=take-control",
         "difficulty": "easy",
         "notes": "Select \"Delete all my data\" and verify your identity.",
@@ -12373,7 +12373,7 @@
     },
     {
         "name": "Match",
-        "_meta": "popular",
+        "meta": "popular",
         "url": "https://help.match.com/hc/en-us/articles/5610035266075-Delete-My-Account",
         "difficulty": "medium",
         "notes": "Only possible within the mobile app, otherwise can only be done via [contacting support](https://help.match.com/hc/en-us/requests/new).",
@@ -14613,7 +14613,7 @@
         "domains": ["app.oloauth.com"]
     },
     {
-        "_meta": "popular",
+        "meta": "popular",
         "name": "OLX",
         "url": "https://www.olx.com",
         "difficulty": "easy",
@@ -23022,7 +23022,7 @@
     },
     {
         "name": "Yelp",
-        "_meta": "popular",
+        "meta": "popular",
         "url": "https://www.yelp.com/support/contact/account_closure",
         "url_es": "https://www.yelp.es/support/contact/account_closure",
         "notes": "Closing your account does not remove all data. To delete the data associated with your account, you must email them. Additional information can be found here: [Yelp - Support Center - How do I close my account?](https://www.biz.yelp.com/support-center/article/How-do-I-close-my-account).",
