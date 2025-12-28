@@ -10,7 +10,7 @@ JustDeleteMeTW 是 [jdm-contrib/jdm](https://github.com/jdm-contrib/jdm) 的分�
 
 開發說明請見 [上游](https://github.com/jdm-contrib/jdm/blob/master/README.md#building-locally)。
 
-貢獻方式依 [上游](https://github.com/jdm-contrib/jdm/blob/master/CONTRIBUTING.md) 為主，差別在不用翻譯。
+貢獻請見 [說明](CONTRIBUTING.md)，基本上跟上游一樣，只是不用翻譯。
 
 ## License
 
