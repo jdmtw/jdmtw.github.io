@@ -7299,6 +7299,14 @@
         ]
     },
     {
+        "name": "France TV",
+        "url": "https://www.france.tv/votre-compte/supprimer-mon-compte/",
+        "difficulty": "easy",
+        "notes": "Account, Account settings, Delete my account, Delete my account",
+        "notes_fr": "Compte, Parametres du compte, Supprimer mon compte, Supprimer mon compte",
+        "domains": ["france.tv"]
+    },
+    {
         "name": "Franz",
         "url": "https://meetfranz.com/user/profile",
         "difficulty": "easy",
@@ -9761,6 +9769,14 @@
         "domains": ["igdb.com"]
     },
     {
+        "name": "iGraal",
+        "url": "https://fr.igraal.com/?showSupportChat",
+        "difficulty": "medium",
+        "notes": "Menu, Discutez avec nous (or chatbot icon), select supprimer mon compte sevral times to send an account deletion request",
+        "notes_fr": "Menu, Discutez avec nous (ou icône du chatbot), selectionner plusieurs fois Supprimer mon compte dans la conversation pour envoyer uen demande de suppression de compte",
+        "domains": ["fr.igraal.com"]
+    },
+    {
         "name": "iHeart",
         "url": "https://help.iheart.com/hc/en-us/articles/4424516427021-How-to-Delete-your-iHeart-Account",
         "difficulty": "medium",
@@ -11102,6 +11118,22 @@
         "notes": "On your account information page, click on \"Supprimer mon compte\", confirm your email address and your password, and click on \"Supprimer mon compte\".",
         "notes_fr": "Sur la page d'informations sur votre compte, cliquez sur \"Supprimer mon compte\", confirmez votre adress email et votre mot de passe, et cliquez sur \"Supprimer mon compte\".",
         "domains": ["lva-mobilite.fr"]
+    },
+    {
+        "name": "La Caméra Embarquée",
+        "url": "https://www.lacameraembarquee.fr/en/contact-us",
+        "url_fr": "https://www.lacameraembarquee.fr/nous-contacter",
+        "difficulty": "hard",
+        "notes": "Account deletion requires contacting Customer Support.",
+        "notes_ca": "Per esborrar el seu compte contacti amb l'assistència al client",
+        "notes_de": "Account-Löschung erfordert es, den Kundensupport zu kontaktieren",
+        "notes_es": "Para borrar tu cuenta contacta con asistencia al cliente",
+        "notes_fr": "Pour supprimer votre compte contactez le support.",
+        "notes_it": "Per cancellare il tuo account devi contattare l'assistenza clienti.",
+        "notes_pt-BR": "Para deletar a sua conta contate a assistência ao cliente",
+        "notes_ru": "Единственный способ удалить учетную запись - отправить электронное письмо службе поддержки.",
+        "notes_tr": "Hesabınızın silinmesi için müşteri hizmetleri ile iletişime geçmeniz gerekir.",
+        "domains": ["lacameraembarquee.fr"]
     },
     {
         "name": "La Poste",
@@ -13327,6 +13359,14 @@
         ]
     },
     {
+        "name": "MouseCTRL",
+        "url": "https://mousectrl.com/",
+        "difficulty": "hard",
+        "notes": "Email the support team from the email address of the account you wish to delete.",
+        "email": "hello@mousectrl.com",
+        "domains": ["mousectrl.com"]
+    },
+    {
         "name": "Mouser",
         "url": "https://www.mouser.co.uk/privacypolicy",
         "difficulty": "medium",
@@ -15146,6 +15186,16 @@
         "domains": ["pagbet.com"]
     },
     {
+        "name": "Palia",
+        "url": "https://support.palia.com/hc/en-us/articles/37965096889620--Understanding-the-Difference-Between-Account-Deletion-Character-Deletion-and-Device-Unlinking#h_01JWF9WW8ZB24FJS5PZFZ9KS9R",
+        "difficulty": "hard",
+        "domains": [
+            "palia.com",
+            "accounts.palia.com",
+            "support.palia.com"
+        ]
+    },
+    {
         "name": "Panda-Plush",
         "url": "https://panda-plush.com/account/register",
         "difficulty": "easy",
@@ -15921,6 +15971,17 @@
         "domains": ["plexus.techlore.tech"]
     },
     {
+        "name": "Ploonk (coquedetelephone.fr)",
+        "url": "https://www.ploonk.fr/service/declaration-de-confidentialite/",
+        "difficulty": "hard",
+        "email": "serviceclients@ploonk.fr",
+        "email_subject": "Demande de suppression de compte",
+        "email_body": "Bonjour, Je souhaiterai faire valoir mes droits et faire supprimer mon compte XXX",
+        "notes": "Contact support via email and request your account to be deleted.",
+        "notes_fr": "Contactez le support par mail pour faire supprimer votre compte",
+        "domains": ["ploonk.fr"]
+    },
+    {
         "name": "Plugin Boutique",
         "url": "https://help.pluginboutique.com/hc/en-us/requests/new?ticket_form_id=8801812364052",
         "difficulty": "hard",
@@ -16216,6 +16277,17 @@
         "notes": "Log into your account ⮕ Click the link ⮕ Click on Send verification code ⮕ Paste the code you got on your email and click Delete Account.",
         "notes_tr": "Hesabınıza giriş yapın, verilen bağlantıya tıklayın, \"Onay kodu gönder\" seçeneğine tıklayın ve ardından e-postanıza aldığınız kodu yapıştırarak \"Hesabı Sil\" tuşuna tıklayın.",
         "domains": ["premiumize.me"]
+    },
+    {
+        "name": "Presearch",
+        "url": "https://account.presearch.com/privacy-policy",
+        "email": "privacy@presearch.io",
+        "difficulty": "hard",
+        "notes": "Email Presearch's privacy team to request account deletion.",
+        "domains": [
+            "presearch.com",
+            "account.presearch.com"
+        ]
     },
     {
         "name": "PrestaShop",
@@ -20401,6 +20473,14 @@
         ]
     },
     {
+        "name": "Tonton Outdoor",
+        "url": "https://www.tonton-outdoor.com/fr_FR/supprimer-mon-compte",
+        "difficulty": "easy",
+        "notes": "Service client (at the bottom of the website), Supprimer mon compte, Supprimer mon compte",
+        "notes_fr": "Service client (en bas du site), Supprimer mon compte, Supprimer mon compte",
+        "domains": ["tonton-outdoor.com"]
+    },
+    {
         "name": "Too Good To Go",
         "url": "https://space.toogoodtogo.com/privacy",
         "difficulty": "easy",
@@ -21302,7 +21382,7 @@
     },
     {
         "name": "Vans.com",
-        "url": "https://www.vans.com/utility/contact-us.html",
+        "url": "https://www.vans.com/en-us/help/contact-us",
         "difficulty": "hard",
         "notes": "Email customer service through the link and tell them you want your account deleted.",
         "domains": ["vans.com"]
